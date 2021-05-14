@@ -1,0 +1,16 @@
+$primary-color: #1caa98;
+#title-bar {
+  background: $primary-color;
+  color: #fff;
+
+  h1 {
+    font-size: 60px;
+    font-weight: 600;
+  }
+}
+
+#about {
+  h2 {
+    font-size: 40px;
+  }
+}

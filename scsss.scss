@@ -1,7 +1,10 @@
+@import 'reset';
+@import 'about';
 $primary-color: #1caa98;
 
 body {
   padding-top: 50px;
+  font-size: 18px !important;
 }
 
 .navbar {
