@@ -48,4 +48,14 @@ section {
   color: #fff;
   padding: 40px;
   overflow: auto;
+
+  ul li {
+    font-size: 22px;
+    list-style: none;
+    line-height: 2em;
+  }
+
+  .glyphicon.glyphicon-ok::before {
+    padding: 6px;
+  }
 }
