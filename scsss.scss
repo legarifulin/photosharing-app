@@ -1,0 +1,51 @@
+$primary-color: #1caa98;
+
+body {
+  padding-top: 50px;
+}
+
+.em-text {
+  color: $primary-color !important;
+}
+
+.jumbotron {
+  background: url(/img/site_showcase_bg.jpg) center;
+  color: #fff !important;
+  height: 598px;
+  overflow: none;
+
+  h1 {
+    margin-top: 120px;
+  }
+
+  p {
+    margin-bottom: 50px !important;
+  }
+  .app-btn {
+    width: 40%;
+    margin-right: 30px;
+  }
+
+  .showcase-img {
+    width: 75%;
+  }
+}
+
+// ========================================
+
+section {
+  padding: 40px 0 40px 0 !important;
+
+  .demo {
+    width: 100%;
+    padding: 5%;
+    border: 1px solid grey;
+  }
+}
+
+#feature {
+  background: $primary-color;
+  color: #fff;
+  padding: 40px;
+  overflow: auto;
+}
