@@ -1,11 +1,16 @@
 @import 'reset';
 @import 'about';
 @import 'contact';
+@import 'mobile';
 $primary-color: #1caa98;
 
 body {
   padding-top: 50px;
-  font-size: 18px !important;
+  font-size: 18px;
+}
+
+.col-md-4 {
+  margin-bottom: 20px;
 }
 
 .navbar {
@@ -23,7 +28,7 @@ body {
 }
 
 .jumbotron {
-  background: url(/img/site_showcase_bg.jpg) center;
+  background: #1b222a url(/img/site_showcase_bg.jpg) center;
   color: #fff !important;
   height: 598px;
   overflow: none;
